@@ -1,0 +1,1 @@
+With this script you can define server events which you want to log in your Discord.
