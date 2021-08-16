@@ -1,5 +1,6 @@
 Citizen.CreateThread(function()
     for k, v in ipairs(Config.Triggerlist) do
+        RegisterServerEvent(v)
         AddEventHandler(v, function()
             DCLog(v.whook, v.event, v.event.." wurde von " .. GetPlayerName(source) .. "[" ..source.. "] ausgelöst")
         end)
