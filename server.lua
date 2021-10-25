@@ -13,12 +13,11 @@ function DCLog(webhook, eventname, message)
             {
                 ["color"] = 13632027,
                 ["footer"] = {
-                    ["text"] = os.date("%c").. " | discord.gg/anticheat" 
+                    ["text"] = os.date("%c")
                 },
                 ["author"] = {
                     ["name"] = "Trigger-Logger",
-                    ["url"] = "https://pornhub.com",
-                    ["icon_url"] = "https://cdn.discordapp.com/avatars/650785409290469412/e1cbfb3cba6508e86221954c499a4313.png?size=128"
+                    ["icon_url"] = "https://forum.cfx.re/user_avatar/forum.cfx.re/kattrigerkatta/45/693796_2.png"
                 },
                 ["fields"] = {
                     {
